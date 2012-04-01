@@ -4,8 +4,8 @@ require File.expand_path('../lib/dependency_injector/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Jeremy Friesen"]
   gem.email         = ["jeremy.n.friesen@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{A thus far stupidly simple dependency injector}
+  gem.summary       = %q{Simple dependency injector}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
