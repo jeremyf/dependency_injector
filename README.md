@@ -4,7 +4,7 @@ A simple macro, akin to def_delegator for plain and simple dependency
 injection.
 
 I'm of the opinion that if you are going to have a convention for dependency
-injection, then why not make a macro method.  Then, it's easy to components 
+injection, why not make a macro method.  Then, it's easy to components 
 involved in the dependency injection straightforward.
 
 This is plain simple dependency injection and frankly, if you don't like it
@@ -34,7 +34,7 @@ Or install it yourself as:
 
 	$ Blog.new.respond_to?(:request_locator)
 	=> true
-	$ Blog.new.respond_to?(:request_locator)
+	$ Blog.new.request_locator
 	=> NoMethodError: private method `request_locator' called for #<Blog:0x00000103408c20>
 	$ Blog.new.request_locator = -> { MiniTest::Mock.new }
 	=> #<Proc:0x00000101b0bba0@(irb):3 (lambda)>
